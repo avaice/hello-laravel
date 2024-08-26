@@ -36,11 +36,11 @@
                         <div class="my-2">
                             <div class="flex gap-2 flex-col">
                                 <label for="name">名前</label>
-                                <input type="text" name="name" id="name" class="border rounded">
+                                <input type="text" name="name" id="name" class="border rounded" required>
                             </div>
                             <div class="flex gap-2 flex-col">
                                 <label for="like">好きな数字</label>
-                                <input type="number" name="like" id="like" class="border rounded">
+                                <input type="number" name="like" id="like" class="border rounded" required>
                             </div>
                         </div>
 

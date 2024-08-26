@@ -16,20 +16,6 @@ class TopController extends Controller
 
     public function store(Request $request)
     {
-        // バリデーションをして、エラーがあればエラーメッセージを返す
-        $validated = $request->validate([
-            'name' => 'required|max:255',
-            'like' => 'required|integer',
-        ]);
-        
-        if ($validated->fails()) {
-            return redirect('/')
-                ->withErrors($validated)
-                ->withInput();
-        }
-
-
-        
         // データを保存してトップページにリダイレクトする
         $ashiato = new Ashiato();
         $ashiato->name = $request->name;
