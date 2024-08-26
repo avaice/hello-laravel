@@ -17,15 +17,6 @@
     </section>
     <section class="border-t py-4">
         <h2 class="text-2xl pb-2">あしあと</h2>
-        @if ($errors->any())
-        <div class="bg-red-100 text-red-800 border border-red-400 p-4 rounded my-4">
-            <ul class="list-disc list-inside">
-                @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-                @endforeach
-            </ul>
-        </div>
-        @endif
 
         <ul class="grid grid-cols-4 gap-4 w-full h-[230px] max-md:grid-cols-2">
             <li class="[grid-column:1_/_3] [grid-row:1_/_3] shadow">
