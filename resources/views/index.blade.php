@@ -8,7 +8,7 @@
     <title>Laravelで作ったあいすのホームページ</title>
 </head>
 
-<body class="max-w-[800px] mx-auto w-full px-4">
+<body class="max-w-[800px] mx-auto w-full px-4 pb-4">
     <h1 class="text-3xl font-bold py-4">Laravelで作ったあいすのホームページ</h1>
     <p>phpで作ったホームページだよ</p>
     <section class="py-4">
@@ -27,7 +27,7 @@
         </div>
         @endif
 
-        <ul class="grid grid-cols-4 gap-4 w-full h-[230px] max-md:grid-cols-2">
+        <ul class="grid grid-cols-4 gap-4 w-full max-md:grid-cols-2">
             <li class="[grid-column:1_/_3] [grid-row:1_/_3] shadow">
                 <div class="px-4 py-2 md:border rounded h-full w-full">
                     <h3 class="text-xl">足跡を残そう</h3>
